@@ -1,0 +1,23 @@
+a:hover{
+  text-decoration: underline;
+  color: red;
+}
+a:active{
+  color: red;
+}
+a:link{
+  text-decoration: blue;
+  color: navy;
+}
+a:visited{
+  color: gray;
+}
+blockquote::before{
+  content: '❝';
+    color: red;
+    background-color: azure;
+}
+blockquote::after{
+  content: '❞';
+}
+
